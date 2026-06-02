@@ -20,14 +20,16 @@ Load only the smaller skill files needed for the task:
 * `component-api/SKILL.md` - Props, dependencies, internal state, data flow, and events.
 * `component-usage/SKILL.md` - Purpose, use cases, visual behavior, accessibility, examples, composition, and styling.
 * `component-maintenance/SKILL.md` - Agent rules, performance, tests, modification tasks, related components, architecture notes, and AI summary.
+* `component-agent-profile/SKILL.md` - Agent-focused YAML profile for fast machine-readable component guidance.
 
 ## Default Flow
 
 1. Start with `document-component/SKILL.md`.
 2. If the user provides a compact brief, also load `component-briefs/SKILL.md`.
-3. Load `component-api/SKILL.md`, `component-usage/SKILL.md`, and `component-maintenance/SKILL.md` as needed to fill the required sections.
-4. Verify facts against source code where possible.
-5. Assemble the final documentation in the section order defined by `document-component/SKILL.md`.
+3. If the user asks for an agent-specific file or machine-readable profile, also load `component-agent-profile/SKILL.md`.
+4. Load `component-api/SKILL.md`, `component-usage/SKILL.md`, and `component-maintenance/SKILL.md` as needed to fill the required sections.
+5. Verify facts against source code where possible.
+6. Assemble the final documentation in the section order defined by `document-component/SKILL.md`.
 
 ## Ground Rules
 

@@ -17,9 +17,11 @@ Create a complete documentation file for a UI component that is useful to human 
    * `../component-api/SKILL.md`
    * `../component-usage/SKILL.md`
    * `../component-maintenance/SKILL.md`
+   * `../component-agent-profile/SKILL.md`
 5. Write the final documentation in the exact section order below.
 6. Use realistic examples from the codebase whenever possible.
 7. If a section has no source evidence, state what is unknown instead of inventing facts.
+8. If the user asks for an agent-specific YAML file, create it using `../component-agent-profile/SKILL.md` alongside the human-readable documentation.
 
 ## Required Section Order
 
